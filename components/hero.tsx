@@ -22,7 +22,7 @@ export function Hero() {
 
         {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-foreground tracking-tight text-balance max-w-4xl mx-auto">
-          Expert Programming Services for the Web
+          Expert Programming Services for the App
         </h1>
 
         {/* Subheading */}
