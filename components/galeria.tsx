@@ -31,7 +31,7 @@ export default function Galeria() {
         
         <div className="section-header mb-12 md:mb-16 text-center">
           <h1 className="text-3xl md:text-5xl font-bold tracking-tight">Nuestra Galería</h1>
-          <p className="text-muted-foreground mt-4 max-w-[700px] mx-auto">
+          <p className="text-muted-foreground mt-4 max-w-175 mx-auto">
             Explora nuestros proyectos.
           </p>
         </div>

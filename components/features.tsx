@@ -52,7 +52,7 @@ export function Features() {
             <div className="mt-10 grid sm:grid-cols-2 gap-6">
               {features.map((feature, index) => (
                 <div key={index} className="flex gap-4">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
+                  <div className="shrink-0 w-10 h-10 rounded-lg bg-secondary flex items-center justify-center">
                     <feature.icon className="h-5 w-5 text-accent" />
                   </div>
                   <div>
@@ -76,7 +76,7 @@ export function Features() {
                 <span className="text-sm text-muted-foreground ml-2 font-mono">api.ts</span>
               </div>
               <pre className="p-4 text-xs sm:text-sm overflow-x-auto max-w-full">
-                <code className="font-mono whitespace-pre-wrap break-words sm:whitespace-pre sm:break-normal">
+                <code className="font-mono whitespace-pre-wrap wrap-break-word sm:whitespace-pre sm:break-normal">
                   <span className="text-accent">{"'use server'"}</span>
                   {"\n\n"}
                   <span className="text-muted-foreground">{"import"}</span>

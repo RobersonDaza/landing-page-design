@@ -5,13 +5,13 @@ export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
       {/* Background Grid */}
-      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:64px_64px]" />
+      <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px)] bg-size-[64px_64px]" />
       
       {/* Decorative Lines */}
-      <div className="absolute top-1/4 left-0 w-1/3 h-px bg-gradient-to-r from-transparent via-border to-transparent" />
-      <div className="absolute top-1/4 right-0 w-1/3 h-px bg-gradient-to-l from-transparent via-border to-transparent" />
-      <div className="absolute bottom-1/3 left-1/4 w-px h-32 bg-gradient-to-b from-border to-transparent" />
-      <div className="absolute bottom-1/3 right-1/4 w-px h-32 bg-gradient-to-b from-border to-transparent" />
+      <div className="absolute top-1/4 left-0 w-1/3 h-px bg-linear-to-r from-transparent via-border to-transparent" />
+      <div className="absolute top-1/4 right-0 w-1/3 h-px bg-linear-to-l from-transparent via-border to-transparent" />
+      <div className="absolute bottom-1/3 left-1/4 w-px h-32 bg-linear-to-b from-border to-transparent" />
+      <div className="absolute bottom-1/3 right-1/4 w-px h-32 bg-linear-to-b from-border to-transparent" />
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Badge */}
